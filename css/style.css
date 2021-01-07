@@ -1,0 +1,383 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #003c35 !important;
+}
+@font-face {
+  font-family: Poppins SemiBold;
+  src: url("../fonts/Poppins-SemiBold.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Poppins Ligthitalic;
+  src: url("../fonts/Poppins-LightItalic.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Mermaid;
+  src: url("../fonts/Mermaid1001.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Poppins Regular;
+  src: url("../fonts/Poppins-Regular.ttf");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: Mermaid Swash Caps;
+  src: url("../fonts/Mermaid\ Swash\ Caps.ttf");
+  font-weight: bold;
+}
+.row {
+  margin: 0 !important;
+}
+.full-image {
+  width: 100%;
+}
+.image-hover {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+.porfolio-image:hover {
+  opacity: 0.8;
+}
+.txt {
+  text-align: center;
+  color: #003c35;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+}
+.nav-bar-menu {
+  background-color: white !important;
+  color: #003c35 !important;
+  font-family: Poppins Regular;
+  margin: 0px !important;
+  padding: 0px !important;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.navbar-toggler {
+  margin: 10px;
+}
+.nav-items-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.nav-logo {
+  width: 150px;
+}
+.nav-container {
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.nav-item {
+  margin: 20px 40px 15px 40px;
+}
+.menu-link {
+  color: #003c35 !important;
+}
+.menu-link:hover {
+  color: #b381b8 !important;
+  border-bottom: 2px solid #b381b8;
+}
+
+/* home */
+.footer-home {
+  background-color: #003c35;
+  color: white;
+}
+.profile-section {
+  padding-top: 72px;
+}
+@media only screen and (min-width: 720px) {
+  .profile-section {
+    padding-top: 172px;
+  }
+}
+.profile-section-container {
+  display: flex;
+  justify-content: center;
+}
+.profile-section-photo {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.main-profile-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.divisor-line {
+  border-bottom: 1px solid black;
+  height: 2px;
+  max-width: 100px;
+  padding: 0px;
+  margin: 20px auto 0px auto;
+}
+.main-profile-paragraph {
+  width: 50%;
+  margin: 30px auto;
+  font-weight: 500;
+  font-size: 1.2em;
+  text-align: center;
+}
+.main-profile-title {
+  font-family: Mermaid;
+  color: #b381b8;
+  font-size: 3rem;
+}
+.main-emilia-tittle {
+  font-family: Mermaid Swash Caps;
+  color: #b381b8;
+  font-size: 3rem;
+}
+.porfolio {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.porfolio-row-dual,
+.porfolio-row-triple {
+  margin: 0px;
+}
+.icon-footer-index {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  color: white;
+}
+.icon-footer-index:hover {
+  color: #b381b8;
+}
+.main-profile-title {
+  color: #003c35;
+}
+.main-leyend-title {
+  font-family: Poppins Ligthitalic;
+  font-size: 2rem;
+  color: #804192;
+}
+.main-services-title {
+  color: #804192;
+  font-family: Mermaid;
+  font-size: 2rem;
+}
+.services {
+  text-align: center;
+}
+.detail-service-image {
+  width: 100px;
+  height: 100px;
+}
+.detail-service-title {
+  color: #b381b8;
+  font-family: Mermaid Swash Cap;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.services-col {
+  margin-bottom: 50px;
+}
+.contact-title {
+  color: #003c35;
+  font-family: Mermaid;
+  font-weight: bold;
+  font-size: 2.3rem;
+  padding-bottom: 20px;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d6d0d0;
+  border-radius: 15px;
+  box-shadow: 8px 6px 9px -2px rgba(0, 0, 0, 0.5);
+  margin: 20px auto 20px auto;
+  width: 80%;
+  padding: 40px 0px;
+}
+.contact-image {
+  width: 300px;
+  height: 300px;
+}
+.first-pharagraph-leyend {
+  padding: 20px;
+  color: #003c35;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: center;
+  font-family: Poppins Regular;
+}
+.second-pharagraph-leyend {
+  color: #804192;
+  font-weight: 500;
+  font-size: 1.3rem;
+  font-family: Poppins Regular;
+}
+/* porfolio-pagina */
+.main {
+  background-color: #003c35;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.main-title {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  color: #b381b8;
+  flex: 1;
+  text-align: center;
+}
+
+.flower {
+  width: 30px;
+  height: 30px;
+}
+.flower2 {
+  width: 30px;
+  height: 30px;
+  margin-left: 35px;
+}
+
+.flower-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-legend-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 25px;
+}
+.image-container {
+  padding: 0px;
+}
+.fist-row-container,
+.second-row-container,
+.third-row-container {
+  margin: 0px;
+}
+.third-paragraph-container {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+.paragraph-main-container {
+  color: #60bfb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.paragraph-malba {
+  color: #60bfb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 40px;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+}
+.contact-button {
+  background-color: #b381b8;
+  padding: 8px 40px;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+.contact-button:hover {
+  text-decoration: none;
+  color: white;
+}
+.contact-button:active {
+  text-decoration: none;
+  color: white;
+}
+footer {
+  background-color: #b381b8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.data-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.e-mail {
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+}
+@media only screen and (max-width: 720px) {
+  .e-mail-container {
+    display: flex;
+    justify-content: center;
+  }
+  .main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.e-mail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer {
+  width: 120px;
+  height: 80px;
+}
+.icon-footer {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  color: white;
+}
+.icon-footer:hover {
+  color: #003c35;
+}
+.social {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: flex-end;
+  margin: 10px;
+}
+.anchor {
+  scroll-margin-top: 62px;
+}
+.first-portfolio-section {
+  padding-top: 62px;
+}
+@media only screen and (min-width: 720px) {
+  .first-portfolio-section {
+    padding-top: 162px;
+  }
+  .anchor {
+    scroll-margin-top: 162px;
+  }
+}
