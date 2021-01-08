@@ -47,7 +47,7 @@ body {
 .txt {
   text-align: center;
   color: #003c35;
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   position: absolute;
 }
@@ -70,7 +70,7 @@ body {
   align-items: flex-end;
 }
 .nav-logo {
-  width: 150px;
+  width: 115px;
 }
 .nav-container {
   align-items: center;
@@ -109,7 +109,23 @@ body {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 0 #3b3b3b;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 #07070766;
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 10px rgba(204, 169, 44, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+    box-shadow: 0 0 0 0 rgba(204, 169, 44, 0);
+  }
 }
 .main-profile-text {
   display: flex;
@@ -125,7 +141,7 @@ body {
 }
 .main-profile-paragraph {
   width: 50%;
-  margin: 30px auto;
+  margin: 7px auto;
   font-weight: 500;
   font-size: 1.2em;
   text-align: center;
@@ -133,12 +149,12 @@ body {
 .main-profile-title {
   font-family: Mermaid;
   color: #b381b8;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .main-emilia-tittle {
   font-family: Mermaid Swash Caps;
   color: #b381b8;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .porfolio {
   padding-left: 30px;
@@ -162,7 +178,7 @@ body {
 }
 .main-leyend-title {
   font-family: Poppins Ligthitalic;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #804192;
 }
 .main-services-title {
@@ -190,7 +206,7 @@ body {
   color: #003c35;
   font-family: Mermaid;
   font-weight: bold;
-  font-size: 2.3rem;
+  font-size: 2rem;
   padding-bottom: 20px;
 }
 .contact-card {
@@ -201,25 +217,25 @@ body {
   border-radius: 15px;
   box-shadow: 8px 6px 9px -2px rgba(0, 0, 0, 0.5);
   margin: 20px auto 20px auto;
-  width: 80%;
+  width: 90%;
   padding: 40px 0px;
 }
 .contact-image {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
 }
 .first-pharagraph-leyend {
-  padding: 20px;
+  padding: 20px 45px;
   color: #003c35;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-align: center;
   font-family: Poppins Regular;
 }
 .second-pharagraph-leyend {
   color: #804192;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: Poppins Regular;
 }
 /* porfolio-pagina */
@@ -235,6 +251,12 @@ body {
   color: #b381b8;
   flex: 1;
   text-align: center;
+  font-family: Mermaid;
+  font-size: 2.2rem;
+}
+.main-title-second {
+  font-family: Poppins Ligthitalic;
+  margin: 30px 0px;
 }
 
 .flower {
@@ -277,6 +299,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
+  margin: 20px 40px;
 }
 .paragraph-malba {
   color: #60bfb7;
@@ -301,6 +324,8 @@ body {
   font-size: 1.2rem;
   text-decoration: none;
   color: white;
+  margin: 40px 0px;
+  text-align: center;
 }
 .contact-button:hover {
   text-decoration: none;
@@ -309,6 +334,10 @@ body {
 .contact-button:active {
   text-decoration: none;
   color: white;
+}
+.contact-button-container {
+  display: flex;
+  justify-content: center;
 }
 footer {
   background-color: #b381b8;
